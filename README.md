@@ -5,7 +5,15 @@ Easily create beautiful [pitch-class set](https://en.wikipedia.org/wiki/Set_theo
 * python3
 * fpdf2
 * PyPDF2
-* math
+
+```
+pip3 install fpdf2 pyPDF2
+```
+
+### Running
+```
+python3 PCS-Diagram.py
+```
 
 ### Examples
 <img src="./screenshot1.jpg" width="200" /> <img src="./screenshot2.jpg" width="200" /> <img src="./screenshot3.jpg" width="200" />
