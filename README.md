@@ -1,6 +1,5 @@
 # PCS-Diagram
-Pitch-class set diagram (chromatic circle) generator
-
+Easily generate beautiful pitch-class set diagrams 
 
 ### Requirements
 python3
@@ -14,5 +13,4 @@ math
 The pdf is created in the current directory. To create the pdf in a specific directory, use the *cd* command before running the script.
 
 ### Screenshots
-
 <img src="./screenshot1.jpg" width="200" />
