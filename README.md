@@ -8,4 +8,4 @@ Easily create beautiful [pitch-class set](https://en.wikipedia.org/wiki/Set_theo
 * math
 
 ### Examples
-<img src="./screenshot1.jpg" width="200" /> <img src="./screenshot2.jpg" width="200" />
+<img src="./screenshot1.jpg" width="200" /> <img src="./screenshot2.jpg" width="200" /> <img src="./screenshot3.jpg" width="200" />
