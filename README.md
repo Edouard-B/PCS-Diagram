@@ -1,13 +1,11 @@
 # PCS-Diagram
-Easily generate beautiful pitch-class set diagrams 
+Easily generate beautiful [pitch-class set](https://github.com/mpv-player/mpv](https://en.wikipedia.org/wiki/Set_theory_%28music%29)) [diagrams](https://en.wikipedia.org/wiki/Chromatic_circle) 
 
 ### Requirements
-python3
-
-##### Modules
-fpdf2
-PyPDF2
-math
+* python3
+* fpdf2
+* PyPDF2
+* math
 
 ### Screenshots
 <img src="./screenshot1.jpg" width="200" /> <img src="./screenshot2.jpg" width="200" />
