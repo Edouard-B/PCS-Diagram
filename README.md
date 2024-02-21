@@ -7,5 +7,5 @@ Easily generate beautiful [pitch-class set](https://github.com/mpv-player/mpv](h
 * PyPDF2
 * math
 
-### Screenshots
+### Examples
 <img src="./screenshot1.jpg" width="200" /> <img src="./screenshot2.jpg" width="200" />
