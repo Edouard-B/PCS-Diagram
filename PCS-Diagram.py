@@ -9,7 +9,7 @@ user_input = input("Enter your pitch-class set, using integers separated by comm
 #user_input = "10,11,2,3,4"
 numbers = [int(num.strip()) for num in user_input.split(',') if min_number <= int(num) <= max_number]
 numbers.sort()
-polygonColor = input("Set the color of your set ('red', 'orange', 'yellow', 'green', 'blue', 'violet' or 'grey'): ")
+polygonColor = input("Set the color of your set ('red', 'orange', 'yellow', 'green', 'blue', 'violet', 'grey' or 'none'): ")
 
 pdf = FPDF()
 pdf.add_page()
@@ -158,6 +158,8 @@ coordOf = [(xCenterCircle, yCenterCircle - rCircle), #0
            (xCenterCircle - rCircle * math.cos(math.pi/3), yCenterCircle - rCircle * math.sin(math.pi/3))] #11
 
 #DRAW SET
+polygonStyle = "DF"
+
 if polygonColor == "orange":
     colorDraw = (182, 108, 32)
     colorFill = (247, 206 , 156)
@@ -186,13 +188,18 @@ elif polygonColor == "violet":
     colorDraw = (132, 92, 150)
     colorFill = (218, 202, 226)
 
+elif polygonColor == "none":
+    colorDraw = (0, 0, 0)
+    colorFill = (0, 0, 0)
+    polygonStyle = "D"
+
 pdf.set_draw_color(colorDraw)
 pdf.set_fill_color(colorFill)
 
 coords = [coordOf[num] for num in numbers]  
 
 if 2 < len(coords) < 13: 
-    pdf.polygon(coords, style="DF")
+    pdf.polygon(coords, style=polygonStyle)
 
 pdf.output("/tmp/circle.pdf")
 
