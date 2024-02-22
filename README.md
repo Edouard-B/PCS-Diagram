@@ -23,14 +23,14 @@ python3 PCS-Diagram.py
 
 | **Color option** | **Resulting polygon** |
 |:----------------:|:---------------------:|
-|        red       |          fill         |
-|      orange      |          fill         |
-|      yellow      |          fill         |
-|       green      |          fill         |
-|       blue       |          fill         |
-|      violet      |          fill         |
-|       grey       |          fill         |
-|       none       |         outline       |
+|        red       |         filled        |
+|      orange      |         filled        |
+|      yellow      |         filled        |
+|       green      |         filled        |
+|       blue       |         filled        |
+|      violet      |         filled        |
+|       grey       |         filled        |
+|       none       |        outlined       |
 
 ### Examples
 <img src="./screenshot1.jpg" width="200" /> <img src="./screenshot2.jpg" width="200" /> <img src="./screenshot3.jpg" width="200" />
