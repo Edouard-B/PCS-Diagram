@@ -201,10 +201,10 @@ coords = [coordOf[num] for num in numbers]
 if 2 < len(coords) < 13: 
     pdf.polygon(coords, style=polygonStyle)
 
-pdf.output("/tmp/circle.pdf")
+pdf.output("pcset_circle.pdf")
 
 #CROP PDF
-with open("/tmp/circle.pdf", "rb") as in_f:
+with open("pcset_circle.pdf", "rb") as in_f:
     input1 = PdfReader(in_f)
     output = PdfWriter()
 
