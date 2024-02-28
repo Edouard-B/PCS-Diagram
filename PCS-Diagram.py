@@ -1,5 +1,5 @@
 from fpdf import FPDF
-from PyPDF2 import PdfWriter, PdfReader, PdfMerger
+from PyPDF2 import PdfWriter, PdfReader
 import math
 
 print("Welcome to PCS-Diagram generator")
